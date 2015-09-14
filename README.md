@@ -27,3 +27,8 @@ UI: http://localhost:3001
 Local: http://localhost:3000
 UI: http://localhost:3001
 ````
+### To do
+- Add autoprefixer
+- Add webfont 
+- Add uglify
+- Improve paths
