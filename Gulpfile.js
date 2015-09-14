@@ -12,7 +12,7 @@ gulp.task('sass', function () {
 //         proxy: "localhost"
 //     });
 // });
-gulp.task('browser-sync', function() {
+gulp.task('serve', function() {
     browserSync.init(["**/*.php", "assets/css/*.css", "assets/js/*.js"], {
 		proxy: "localhost"
         // server: {
@@ -21,6 +21,6 @@ gulp.task('browser-sync', function() {
     });
 });
 
-gulp.task('default', ['sass', 'browser-sync'], function () {
+gulp.task('default', ['sass', 'serve'], function () {
     gulp.watch("assets/scss/*.scss", ['sass']);
 });
