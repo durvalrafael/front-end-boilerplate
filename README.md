@@ -22,11 +22,8 @@ Local: http://localhost:3000
 UI: http://localhost:3001
 ````
 
-- sass : compile scss files: 
-`````
-Local: http://localhost:3000
-UI: http://localhost:3001
-````
+- sass : Just compile scss files: 
+
 ### To do
 - Add autoprefixer
 - Add webfont 
