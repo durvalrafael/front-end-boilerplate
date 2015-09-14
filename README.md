@@ -31,4 +31,5 @@ UI: http://localhost:3001
 - Add autoprefixer
 - Add webfont 
 - Add uglify
+- Add bower
 - Improve paths
